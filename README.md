@@ -23,10 +23,15 @@ This repository offers a Jupyter Notebook meant to forecast stock market volatil
   - Compares anticipated and actual volatility to show model performance.
   - Includes an interactive dashboard to have a better understanding of data and model predictions.
 
-  ## Technology and Libraries Python libraries used include 'dash', 'plotly','scikit-learn','statsmodels', 'ta', 'tensorflow', and 'yfinance'.
-- NLP and Sentiment Analysis: 'Transformers' library with 'Finbert-tone' for financial sentiment analysis.
-- Deep learning frameworks: 'Keras' and TensorFlow backend
-- Visualisation:'matplotlib','seaborn', 'plotly'
+## Technologies and Libraries Used
+- Python libraries 
+  - `dash`, `plotly`, `scikit-learn`, `statsmodels`, `ta`, `tensorflow`, `yfinance`
+- NLP and Sentiment Analysis 
+  - 'Transformers' library with 'Finbert-tone' for financial sentiment analysis.
+- Deep learning frameworks 
+  - 'Keras' and TensorFlow backend
+- Visualisation 
+  - 'matplotlib','seaborn', 'plotly'
 
 ## How to Run the Project 
 
