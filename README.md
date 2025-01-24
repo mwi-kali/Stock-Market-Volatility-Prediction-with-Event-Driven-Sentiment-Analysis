@@ -2,36 +2,11 @@
 
 This repository offers a Jupyter Notebook meant to forecast stock market volatility using a hybrid strategy that blends historical stock data with event-driven sentiment analysis. The research uses advanced Natural Language Processing (NLP) techniques, technical indicators, and deep learning models to improve forecast accuracy.
 
-## Key Features 
-
-- **Data Retrieval and Preprocessing**
-  - Uses 'yfinance' to obtain historical stock data, such as NVIDIA Corporation (NVDA).
-  - Retrieves financial news stories using NewsAPI and incorporates external market sentiments.
-- **Sentiment Analysis**
-  - Uses a pre-trained BERT-based model ('finbert-tone') to extract sentiment scores from news items and incorporates an event-driven component.
-- **Feature Engineering**
-  - Includes technical indicators such as Moving Averages, Exponential Moving Averages (EMA), Momentum, Bollinger Bands, and Relative Strength Index (RSI).
-- **Data Preparation for LSTM**
-  - Scales data sequences to train an LSTM (Long Short-Term Memory) model capable of capturing temporal relationships.
-- **Model Construction and Training**
-  - Creates a Keras-based LSTM model architecture with dropout regularization layers.
-  - Trains the model by visually tracking loss over epochs to detect overfitting.
-- **Model Evaluation**
-  - Calculates performance measures including MSE, MAE, RMSE, and R-squared to evaluate model accuracy.
-  - Examines residuals to identify predicted deviations.
-- **Visualization**
-  - Compares anticipated and actual volatility to show model performance.
-  - Includes an interactive dashboard to have a better understanding of data and model predictions.
-
 ## Technologies and Libraries Used
-- Python libraries 
-  - `dash`, `plotly`, `scikit-learn`, `statsmodels`, `ta`, `tensorflow`, `yfinance`
-- NLP and Sentiment Analysis 
-  - 'Transformers' library with 'Finbert-tone' for financial sentiment analysis.
-- Deep learning frameworks 
-  - 'Keras' and TensorFlow backend
-- Visualisation 
-  - 'matplotlib','seaborn', 'plotly'
+- Python libraries (`dash`, `plotly`, `scikit-learn`, `statsmodels`, `ta`, `tensorflow`, `yfinance`)
+- NLP and Sentiment Analysis ('Transformers' library with 'Finbert-tone' for financial sentiment analysis.)
+- Deep learning frameworks ('Keras' and TensorFlow backend)
+- Visualisation ('matplotlib','seaborn', 'plotly')
 
 ## How to Run the Project 
 
